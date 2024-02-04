@@ -13,76 +13,76 @@ function calcularPorcentagem(x,y){
 
 
 
-//  let metragem;
-//  let numeroQuarto;
-// function calcularImovel(metragem,numeroQuarto){
-//   metragem = parseFloat(prompt('Digite a metragem '));
-//     do {
-//         numeroQuarto = parseInt(prompt('Digite o numero de quartos de 1 a 3 '));
-//      if (numeroQuarto < 1 || numeroQuarto > 3){
-//     console.log("Digite novamente");
-//     }
-//     }   while (numeroQuarto < 1 || numeroQuarto > 3);
+ let metragem;
+ let numeroQuarto;
+function calcularImovel(metragem,numeroQuarto){
+  metragem = parseFloat(prompt('Digite a metragem '));
+    do {
+        numeroQuarto = parseInt(prompt('Digite o numero de quartos de 1 a 3 '));
+     if (numeroQuarto < 1 || numeroQuarto > 3){
+    console.log("Digite novamente");
+    }
+    }   while (numeroQuarto < 1 || numeroQuarto > 3);
 
-//     let preco;
-// switch (numeroQuarto) {
-//     case 1:
-//         preco= metragem*1;
-//         console.log(`A casa custa R$ ${preco.toFixed(2)}`);
-//         break;
+    let preco;
+switch (numeroQuarto) {
+    case 1:
+        preco= metragem*1;
+        console.log(`A casa custa R$ ${preco.toFixed(2)}`);
+        break;
 
-//         case 2 :
-//             preco=metragem*1.2;
-//             console.log(`A casa custa R$ ${preco.toFixed(2)}`);
-//             break;
+        case 2 :
+            preco=metragem*1.2;
+            console.log(`A casa custa R$ ${preco.toFixed(2)}`);
+            break;
 
-//             case 3 :
-//                 preco=metragem*1.5;
-//                 console.log(`A casa custa R$ ${preco.toFixed(2)}`);
-//                 break;    
-//     default:
-//         break;
-// }
-// }
-// calcularImovel(metragem,numeroQuarto)
-
-
-// function calcularImovel(metragem, numeroQuarto) {
-// let preco;
-
-// switch (numeroQuarto) {
-// case 1:
-//   preco = metragem * 1;
-//   console.log(`A casa custa R$ ${preco.toFixed(2)}`);
-//   break;
-
-// case 2:
-//   preco = metragem * 1.2;
-//   console.log(`A casa custa R$ ${preco.toFixed(2)}`);
-//   break;
-
-// case 3:
-//   preco = metragem * 1.5;
-//   console.log(`A casa custa R$ ${preco.toFixed(2)}`);
-//   break;
-
-// default:
-//   console.log("Número de quartos inválido.");
-//   break;
-// }
-// }
+            case 3 :
+                preco=metragem*1.5;
+                console.log(`A casa custa R$ ${preco.toFixed(2)}`);
+                break;    
+    default:
+        break;
+}
+}
+calcularImovel(metragem,numeroQuarto)
 
 
-// calcularImovel(50000,2); 
+function calcularImovel(metragem, numeroQuarto) {
+let preco;
+
+switch (numeroQuarto) {
+case 1:
+  preco = metragem * 1;
+  console.log(`A casa custa R$ ${preco.toFixed(2)}`);
+  break;
+
+case 2:
+  preco = metragem * 1.2;
+  console.log(`A casa custa R$ ${preco.toFixed(2)}`);
+  break;
+
+case 3:
+  preco = metragem * 1.5;
+  console.log(`A casa custa R$ ${preco.toFixed(2)}`);
+  break;
+
+default:
+  console.log("Número de quartos inválido.");
+  break;
+}
+}
 
 
-// let n1= parseFloat(prompt("Digite o numero para ser calculado "))
-
-// function numeroAoquadrado (n1){
-// n1=n1*n1;
-// console.log(`O numero que quadrado e ${n1}`)
-
-// }
+calcularImovel(50000,2); 
 
 
-// numeroAoquadrado(n1)
+let n1= parseFloat(prompt("Digite o numero para ser calculado "))
+
+function numeroAoquadrado (n1){
+n1=n1*n1;
+console.log(`O numero que quadrado e ${n1}`)
+
+}
+
+
+numeroAoquadrado(n1)
